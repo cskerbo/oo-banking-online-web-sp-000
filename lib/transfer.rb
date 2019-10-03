@@ -30,4 +30,5 @@ class Transfer
       receiver.deposit(@amount * -1)
       self.status = "reversed"
     end
+  end
 end
