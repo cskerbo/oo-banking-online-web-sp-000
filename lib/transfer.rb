@@ -20,7 +20,7 @@ class Transfer
     else
       sender.deposit(@amount * -1)
       receiver.deposit(@amount)
-      self.status == "complete"
+      @status == "complete"
     end
   end
 
